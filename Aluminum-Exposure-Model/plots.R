@@ -1,7 +1,7 @@
 # produce the plots
 
 #body burden v age in days [Vaccines (AlP04)]
-png("Body burden v age in days [Vaccines (AlP04)].png")
+png("Body_burden_v_age_in_days_[Vaccines_(AlP04)].png")
 plot(times,netbodyburden,xlab="Days of age",ylim=c(0,7),ylab="Body burden (mg)",type="l")
 lines(times,safebb50,col="blue")
 lines(times,bmbb,col="orange")
@@ -13,7 +13,7 @@ lines(times,safebb5,col="red")
 dev.off()
 
 #body burden v age in days [Vaccines (AlOH)]
-png("Body burden v age in days [Vaccines (AlOH)].png")
+png("Body_burden_v_age_in_days_[Vaccines_(AlOH)].png")
 plot(times,netbodyburdenAlOH,xlab="Days of age",ylim=c(0,7),ylab="Body burden (mg)",type="l")
 lines(times,safebb50,col="blue")
 lines(times,bmbb,col="orange")
@@ -25,7 +25,7 @@ lines(times,safebb5,col="red")
 dev.off()
 
 #Body burden v age in days [Vaccines (Bolus)]
-png("Body burden v age in days [Vaccines (Bolus)].png")
+png("Body_burden_v_age_in_days_[Vaccines_(Bolus)].png")
 plot(times,bolusbb,xlab="Days of age",ylim=c(0,7),ylab="Body burden (mg)",type="l")
 lines(times,safebb50,col="blue")
 lines(times,bmbb,col="orange")
